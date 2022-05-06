@@ -2,6 +2,7 @@
 
 # Using binary search
 # running time: O(nlogn)
+import bisect
 
 class Solution:
     def lengthOfLIS(self, nums: List[int]) -> int:
